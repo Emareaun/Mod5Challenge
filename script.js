@@ -65,6 +65,8 @@ var init7 = JSON.parse(localStorage.getItem("07:00 pm"))
 }
 
 function background () {
+
+    //Applies CSS classes to form controls based on their relationship to the current hour.
       
   $(".form-control").each(function () {
       var timeTest = parseInt($(this).attr("id"));
