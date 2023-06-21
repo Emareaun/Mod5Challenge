@@ -11,10 +11,12 @@ var fourPm = $("#16pm");
 var fivePm = $("#17pm");
 var sixPm = $("#18pm");
 var sevenPm = $("#19pm");
-
 var hour = moment().hours();
 var userInput;
 var hourSpan;
+
+console.log (hourSpan)
+console.log (userInput)
 
 
 var interval = setInterval(function() {
